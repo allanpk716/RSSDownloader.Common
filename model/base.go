@@ -40,6 +40,7 @@ type DownloadInfo struct {
 	RSSUrl string
 	DownloadRoot string
 	UseProxy bool
+	DownloadHttpProxy string
 }
 
 type Reply struct {
