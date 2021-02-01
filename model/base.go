@@ -41,3 +41,7 @@ type DownloadInfo struct {
 	DownloadRoot string
 	UseProxy bool
 }
+
+type Reply struct {
+	StatusCode int
+}
