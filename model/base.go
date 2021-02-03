@@ -46,3 +46,11 @@ type DownloadInfo struct {
 type Reply struct {
 	StatusCode int
 }
+
+type DownloaderInfo struct {
+	DockSSHAddress string
+	DockerUserName string
+	DockerPassword string
+	Name string
+	Commands []string
+}
