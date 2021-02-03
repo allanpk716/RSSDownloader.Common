@@ -10,6 +10,7 @@ type Configs struct {
 }
 
 type RSSProxyInfos struct {
+	DefaultDownloaderName string
 	DefaultDownloadRoot string
 	DefaultUseProxy bool
 	RSSInfos []RSSInfo
@@ -23,6 +24,7 @@ type RSSInfo struct {
 }
 
 type BiliBiliInfos struct {
+	DefaultDownloaderName string
 	DefaultDownloadRoot string
 	DefaultUseProxy bool
 	BiliBiliUserInfos []BiliBiliUserInfo
