@@ -50,7 +50,7 @@ type Reply struct {
 	StatusCode int
 }
 
-type DownloaderInfo struct {
+type DockerDownloaderInfo struct {
 	DockSSHAddress string
 	DockerUserName string
 	DockerPassword string
