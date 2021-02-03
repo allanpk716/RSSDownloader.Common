@@ -54,6 +54,7 @@ type DockerDownloaderInfo struct {
 	DockSSHAddress string
 	DockerUserName string
 	DockerPassword string
+	PhysicalMachineDownloadRootPath string
 	Name string
 	Commands []string
 }
