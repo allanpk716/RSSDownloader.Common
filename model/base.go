@@ -43,6 +43,7 @@ type DownloadInfo struct {
 	DownloadRoot string
 	UseProxy bool
 	DownloadHttpProxy string
+	DownloaderName string
 }
 
 type Reply struct {
