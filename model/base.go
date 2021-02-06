@@ -57,4 +57,5 @@ type DockerDownloaderInfo struct {
 	Name string
 	UpdateCommands []string
 	DownloadCommands []string
+	OutSideAPPOrFolderLocation []string
 }
