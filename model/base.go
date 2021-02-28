@@ -59,3 +59,17 @@ type DockerDownloaderInfo struct {
 	DownloadCommands []string
 	OutSideAPPOrFolderLocation []string
 }
+
+type ComicDownloadInfos struct {
+	DefaultDownloadRoot string
+	DefaultUseProxy bool
+	ComicInfos []ComicInfo
+}
+
+type ComicInfo struct {
+	ComicSite string
+	FolderName string
+	ID string
+	DownloadRoot string
+	UseProxy bool
+}
